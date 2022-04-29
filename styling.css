@@ -5,7 +5,7 @@
 /* Styling Header */
 
 #top {
-  height: 50vh;
+  height: 70vh;
 
   padding: 5%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
@@ -51,7 +51,6 @@ main {
 h3 {
   color: darkslategray;
   text-decoration: underline;
-  margin: 2.5% 1.5%;
 }
 
 p {
@@ -63,8 +62,29 @@ p {
 
 /* Styling recurring elements */
 
-/* Styling Section: */
-/* Styling Section: */
+/* Styling Section:SecContainer */
+.seccontainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Styling Section:SecContainer */
+
+/* Styling Section:Image-Section */
+.secImg {
+  padding: 2.5%;
+  width: 50%;
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.secImg img {
+  max-width: 50%;
+}
+
+/* Styling Section:Image-Section */
 /* Styling Section: */
 /* Styling Section: */
 /* Styling Section: */
